@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "sourceRoot": "src",
+        "outDir": "build",
+        "lib": ["es6"],
+        "types": [
+            "node"
+        ]
+    },
+    "exclude": [
+        "build",
+        "node_modules"
+    ]
+}
